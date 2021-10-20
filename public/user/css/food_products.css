@@ -1,0 +1,347 @@
+.top-banner{
+    background-size: cover;
+    background-position: center;
+    padding: 225px 0;
+    position: relative;
+    box-shadow: #000 0 0 10px;
+}
+
+.top-banner h1{
+    margin-bottom: 40px;
+    color: #222;
+    font-size: 40px;
+    width: 40%;
+    z-index: 6;
+    position: absolute;
+    left: 55px;
+}
+
+.c-item{
+    height: 600px;
+}
+
+.c-item img.bg-img{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.top-banner .bg-filter,
+.c-item .bg-filter{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 5;
+    background-size: cover;
+    background-position: left;
+    /* background: #fff; */
+    /* opacity: 0.85;
+    -webkit-clip-path: polygon(0 0, 28% 0, 65% 100%, 0% 100%);
+    clip-path: polygon(0 0, 28% 0, 65% 100%, 0% 100%); */
+}
+
+
+.c-item .c-content{
+    z-index: 6;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 7%;
+    padding-top: 35px;
+}
+
+.c-item .c-content h1{
+    margin-bottom: 40px;
+    color: #222;
+    font-size: 40px;
+    width: 40%;
+}
+
+.c-item .c-content h4{
+    color: #ad011b;
+}
+
+.owl-dots{
+    display: none !important;
+}
+
+button.owl-prev{
+    color: #111 !important;
+}
+
+.cats-section{
+    background: rgb(250, 250, 250);
+    min-height: 200px;
+    border-radius: 0 10px 10px 0;
+    box-shadow: #525252 0 0 15px -4px;
+    padding-top: 1rem
+}
+
+.books-section h3,
+.cards-section h3,
+.cats-section h3{
+    color: #001748;
+    text-align: center
+}
+
+.cards-section hr,
+.cats-section hr{
+    border-top: 1px solid #ad011b;
+}
+
+.cats-section ul{
+    font-size: 19px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cats-section ul li{
+    border-radius: 50px;
+    border: rgba(0,0,0,0) 1px solid;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.cats-section ul li:hover{
+    border-color: #ddd;
+    background: #fff;
+}
+
+.cats-section li a{
+    display: block;
+    padding: 2px 15px;
+    line-height: 1.8;
+}
+
+.cats-section .cat-active{
+    border-color: rgba(0, 88, 38, 0.15) !important;
+    background: rgba(0, 88, 38, 0.05) !important;
+    color: #ad011b !important;
+}
+
+.products-section{
+    padding-top: 25px
+}
+
+.cards-section{
+    padding-top: 1rem;
+}
+
+.cards{
+    text-align: center;
+}
+
+.card{
+    width: 310px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: #bfbfbf 0 3px 17px -4px;
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.card img{
+    width:100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card .bg-img{
+    width:85%;
+    margin: 10px auto;
+    height: 200px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card p{
+    margin: 0;
+}
+
+.card-details{
+    padding: 12px;
+    text-align: left;
+}
+
+.card-brand{
+    color:#ad011b;
+}
+
+.card .card-name{
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 8px;
+}
+
+.card .card-des{
+    margin-bottom: 10px;
+    overflow: hidden;
+    height: 57px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.card .card-packing{
+    width: 100%;
+    display: flex;
+}
+
+.card .card-packing span{
+    color: #001748;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* #details-modal .modal-header{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    background: #ffffffde;
+} */
+#details-modal .modal-body {
+    padding: 0;
+}
+
+#details-modal .modal-body img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#details-modal .modal-body .bg-img {
+    width: 85%;
+    height: 350px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+}
+
+
+#details-modal .modal-body p{
+    margin: 0;
+}
+
+#details-modal .modal-body .details-details{
+    padding: 12px;
+    text-align: left;
+}
+
+#details-modal .modal-body .details-brand{
+    color:#ad011b;
+}
+
+#details-modal .modal-body .details-name{
+    font-size: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 8px;
+}
+
+#details-modal .modal-body .details-full-des{
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#details-modal .modal-body .details-packing{
+    width: 100%;
+    display: flex;
+}
+
+#details-modal .modal-body .details-packing span{
+    color: #001748;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card .card-foot{
+    display: flex;
+    justify-content: center;
+}
+
+.card .card-foot button:nth-child(1){
+    width:70%;
+    margin-right: 5px
+}
+
+.card .card-foot p{
+    min-width: 100px;
+    border-radius: 50px;
+    border: none;
+    color: #202020;
+    background: rgb(219, 219, 219);
+    text-align: center;
+    padding-top: 4px;
+    margin-right: 5px;
+}
+
+.books-section{
+    padding: 15px;
+    margin: 25px 5%;
+    border-radius: 8px;
+}
+
+.books-section h3{
+    margin-bottom: 25px;
+}
+
+.card.card-wide{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.card.card-wide img{
+    width:200px;
+}
+
+.card.card-wide .card-details{
+    width:100%;
+}
+
+.card.card-wide .card-des{
+    height: unset;
+}
+
+.card.card-wide .card-foot{
+    display: block;
+}
+
+.card.card-wide .card-foot *{
+    display: inline-block;
+    height: 30px;
+}
+
+.card.card-wide .card-foot button{
+    width: unset;
+}
+
+@media(max-width: 768px){
+    .cats-section ul{
+        display: none;
+    }
+
+    .sel-cat{
+        display: inline-block !important; 
+    }
+}

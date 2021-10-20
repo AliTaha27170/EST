@@ -1,0 +1,64 @@
+.profile-box {
+    margin: 100px 10%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: #9b8c8c 0 3px 17px -4px;
+    overflow: hidden;
+    padding-bottom: 25px
+}
+
+.tabs-parent {
+    width: 100%;
+    display: flex;
+    border-bottom: #ddd 1px solid;
+}
+
+.tabs-parent button {
+    width: 100%;
+    padding: 15px 5px;
+    text-align: center;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.tabs-parent button:hover {
+    background: rgb(238, 238, 238);
+}
+
+.tabs-parent button.tab-active {
+    background: #001748;
+    color: #fff;
+}
+
+#orders-page {
+    display: none;
+}
+
+table,
+tbody {
+    width: 100%;
+}
+
+table td {
+    padding: 10px 0;
+}
+
+table td span {
+    padding: 0 20px;
+    text-align: center;
+    color: #ad011b
+}
+
+table tr td:last-child {
+    color: tomato
+}
+
+table tr:nth-child(odd) {
+    background: #f5f5f5;
+}
+
+table tr:nth-child(even) {
+    background: #fff;
+}

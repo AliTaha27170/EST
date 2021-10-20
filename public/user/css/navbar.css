@@ -1,0 +1,223 @@
+
+.search-drop {
+    position: absolute;
+    width: 450px;
+    background: #fff;
+    right: 9px;
+    border-radius: 5px;
+    box-shadow: #5d5d5d 0 0 16px -4px;
+    padding: 15px 0;
+    max-height: 340px;
+    overflow-y: auto;
+    top: 63px;
+    display: none;
+}
+
+.search-drop a{
+    width: 100%;
+    border-bottom: #ddd 1px solid;
+    transition: 0.3s all;
+}
+
+.search-drop a:hover{
+    background: #eee;
+}
+
+.search-drop .search-item {
+    display: flex !important;
+    width: 100%;
+}
+
+.search-drop .search-item p {
+    margin: 0;
+    color: #222;
+}
+
+.search-drop .search-item h6 {
+    margin: 0;
+    color: #ad011b;
+}
+
+.search-drop .search-item img {
+    height: 38px;
+    width: 80px;
+    object-fit: contain;
+}
+
+nav.m-nav{
+    position: fixed;
+    top:0;
+    right: 0;
+    width: 100%;
+    padding: 0px 10px;
+    z-index: 100;
+}
+
+nav .ship-to{
+    padding: 8px 10px;
+}
+
+nav .ship-to p{
+    margin:0;
+    max-width: 110px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+nav .ship-to p:nth-child(1){
+    font-size: 12px;
+    color: #333;
+}
+
+nav.m-nav.m-nav-scroll{
+    background: #fff;
+    box-shadow: #5d5d5d 0 0 16px -4px;
+    border-radius: 0 0 9px 9px;
+}
+
+nav.m-nav .active-nav{
+    background: #fff !important;
+    color: #001748;
+}
+
+nav.m-nav.m-nav-scroll .active-nav{
+    background: #001748 !important;
+    color: #fff;
+}
+
+nav.m-nav > a{
+    float: left;
+}
+
+nav.m-nav > a > img{
+    height: 53px;
+    margin-top: 7px;
+    float: left;
+}
+
+nav.m-nav .brand-text{
+    float: left;
+    margin: 0 10px;
+    padding-top: 8px;
+}
+
+nav.m-nav .brand-text > label{
+    color: #fff;
+    font-size: 25px;
+    font-family: 't1';
+    margin: 0;
+    cursor: pointer;
+    line-height: 41px;
+}
+
+nav.m-nav .brand-text > p{
+    color: #fff;
+    margin: 0;
+    font-size: 12px;
+}
+
+
+nav.m-nav.m-nav-scroll .brand-text label,
+nav.m-nav.m-nav-scroll .brand-text p{
+    color: #001748;
+}
+
+nav.m-nav > *{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav.m-nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+nav.m-nav ul.user-ul{
+    float: right;
+}
+
+nav.m-nav ul li{
+    display: inline-block;
+    color: #fff;
+    vertical-align: middle;
+    cursor: pointer;
+    justify-content: center;
+    transition: 0.3s all;
+    border-radius: 0 0 6px 6px
+}
+
+nav.m-nav ul li:hover .nav-drop{
+    display: block;
+}
+
+nav.m-nav .nav-drop{
+    position: absolute;
+    background: #fff;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+    display: none;
+    box-shadow: #0000002b 0 13px 10px;
+}
+
+nav.m-nav .nav-drop ul{
+    display: block;
+}
+
+nav.m-nav .nav-drop li{
+    display: block;
+    color: #001748;
+}
+
+nav.m-nav .nav-drop li span{
+    width: 33px;
+}
+
+.search-nav{
+    display: flex;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-top: 10px;
+    border: #222 1px solid;
+    width: 240px;
+}
+
+.search-nav input{
+    background: #fff;
+    border: none;
+    height: 35px;
+    padding: 0 15px;
+    width: 75%;
+    flex-grow: 1;
+}
+
+.search-nav button{
+    background: #fff;
+    color: #001748;
+    padding: 0 18px;
+    border: none;
+    height: 35px;
+    cursor: pointer;
+}
+
+nav.m-nav ul li a{
+    padding: 18px 20px;
+    display: inline-block;
+}
+
+nav.m-nav.m-nav-scroll ul li{
+    color:#001748;
+    border-radius: 0;
+}
+
+nav.m-nav.m-nav-scroll ul li:hover{
+    background: rgb(236, 236, 236);
+}
+
+nav.m-nav ul li:hover{
+    background: rgba(0, 0, 0,0.3);
+}

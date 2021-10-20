@@ -1,0 +1,117 @@
+#open-left{
+  background: #fff;
+  color:#001748;
+  border:none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  float: left;
+}
+
+.sidebar .search-nav{
+
+  margin: 10px 15px
+}
+
+.sidebar a {
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  display: block;
+  cursor: pointer;
+}
+
+.sidebar a:hover {
+  text-decoration: none;
+  /* background: #001748 !important;
+  color: #fff !important; */
+}
+
+.sidebar .main {
+  width: 100%;
+  max-width: 728px;
+  margin: 0 auto;
+  text-align: center
+}
+
+.sidebar {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 150;
+  max-width: 300px;
+  background: #f7f7f7;
+  color:#111;
+  box-sizing: border-box;
+  box-shadow: 10px 0 30px rgba(0,0,0,0.15);
+  transform: translateX(-120%);
+  transition: all 0.3s cubic-bezier(0.35, 0.38, 0.07, 0.83);
+  overflow: auto
+}
+
+.sidebar .close .btn-close {
+  float: right;
+  box-shadow: none;
+  color: #f00;
+  font-size: 15px;
+}
+
+.sidebar .close::after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden
+}
+
+.sidebar.right {
+  left: initial;
+  right: 0;
+  box-shadow: -10px 0 30px rgba(0,0,0,0.15);
+  transform: translateX(120%)
+}
+
+.sidebar.right .close .btn-close { float: left }
+
+.sidebar.active { transform: translateX(0) }
+
+.sidebar .content {
+  line-height: 1.5;
+  font-size: 0.875em
+}
+
+.sidebar .content ul.s-menu,
+.sidebar .content ol {
+  margin: 20px 0 20px 20px;
+  margin: 45px 0px;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar .content ul.sub-menu {
+  list-style: none;
+  padding: 0;
+  margin : 0;
+  background: #ddd !important;
+  transform-origin: top;
+  overflow: hidden;
+  display: none;
+}
+
+.sidebar .content ul.sub-menu a{
+  padding-left: 1.5rem
+}
+
+.sidebar .content ul.sub-menu.sub-sub-menu{
+  background: #fff !important;
+}
+
+.sidebar .content ul.sub-menu.sub-sub-menu a{
+  padding-left: 2.5rem;
+  color: #111 !important;
+}

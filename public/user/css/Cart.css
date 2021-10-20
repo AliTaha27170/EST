@@ -1,0 +1,22 @@
+.cart-body {
+    margin: 100px 10%;
+    padding: 20px 2%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: #9b8c8c 0 3px 17px -4px;
+    text-align: center
+}
+
+.cart-body h3 {
+    text-align: center;
+}
+
+.count-sm button {
+    font-size: 19px !important;
+}
+
+@media(max-width: 768px) {
+    .cart-body {
+        margin: 100px 5%;
+    }
+}

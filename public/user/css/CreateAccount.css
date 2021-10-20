@@ -1,0 +1,87 @@
+.x-body {
+    margin: 100px 5%;
+    padding: 20px 2%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: #9b8c8c 0 3px 17px -4px;
+}
+
+body{
+    background: #f8f5ff
+}
+
+.x-body h3 {
+    text-align: center;
+}
+
+.input1{
+    width:100%;
+}
+
+label{
+    margin: 0;
+}
+
+.section-parent{
+    padding: 1rem;
+    padding-bottom: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.section-parent button{
+    height: 31px;
+    display: inline-block;
+    float: right;
+}
+
+.section-parent h4{
+    display: inline-block;
+}
+
+.remove-item-btn{
+    font-size: 14px;
+    border:none;
+    border-radius: 50px;
+    background: rgb(219, 53, 47);
+    color: #fff;
+    padding: 0 15px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+}
+.trc-ul,
+.trc-ul-other,
+.partners-ul-other,
+.partners-ul{
+    list-style: none;
+    padding: 0;
+
+}
+
+.trc-ul li .remove-item-btn,
+.partners-ul li .remove-item-btn{
+    display: none;
+}
+
+.trc-ul li,
+.trc-ul-other li,
+.partners-ul-other li,
+.partners-ul li{
+    border: #ddd 1px solid;
+    border-radius: 10px;
+    padding-top: 1rem;
+    position: relative;
+    padding-bottom: 16px;
+}
+
+.trc-ul-other li,
+.partners-ul-other li{
+    margin-bottom: 1rem;
+}
+
+@media(max-width: 768px) {
+    .x-body {
+        margin: 100px 5%;
+    }
+}
