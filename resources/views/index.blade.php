@@ -20,7 +20,10 @@
 
 </style>
 
-<div class="owl-carousel top-slider">
+<div class="owl-carousel top-slider" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0">
     <div class="c-item c-main">
         <!-- <img class="bg-img" src=""> -->
         <div class="bg-img" style="background-image:url('{{URL::asset('user/img/slider2.png')}}')"></div>
@@ -70,11 +73,7 @@
 
     </div>
 </div>
-
-<p><br></p>
-
-
-<div class="o-services">
+<!-- <div class="o-services">
     <h1>OUR SERVICES</h1>
     <div class="container">
         <div class="row">
@@ -195,9 +194,156 @@
 
         </div>
     </div>
-</div>
+</div> -->
+    <!-- New sevices Section -->
+    <div id="services" class="services-area area-padding">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12" data-aos="fade-up">
+            <div class="section-headline services-head text-center">
+              <h2>Our Services</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <!-- Start Left services -->
+          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="fade-up">
+            <div class="about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon" href="#">
+                    <i class="bi bi-briefcase"></i>
+                  </a>
+                  <h4> IMPORT - EXPORT- AGENCIES</h4>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="fade-up">
+            <div class="about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon" href="#">
+                  <i class="bi bi-basket"></i>
+                  </a>
+                  <h4> Food Distributed</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="fade-up">
+            <!-- end col-md-4 -->
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon" href="#">
+                  <i class="bi bi-bar-chart"></i>
+                  </a>
+                  <h4>Web Site Management</h4>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="fade-up">
+            <!-- end col-md-4 -->
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon" href="#">
+                  <i class="fas fa-shipping-fast"></i>
+                  </a>
+                  <h4> Shipping</h4>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <!-- End Left services -->
+          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="fade-up">
+            <!-- end col-md-4 -->
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon" href="#">
+                  <i class="bi bi-code-slash"></i>
+                  </a>
+                  <h4> Web Design & Development</h4>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <!-- End Left services -->
+          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="fade-up">
+            <!-- end col-md-4 -->
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon" href="#">
+                  <i class="bi bi-badge-ad"></i>
+                  </a>
+                  <h4> Advertising-Propaganda</h4>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
 
-<div class="food-s-temp" hidden>
+          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="fade-up">
+            <!-- end col-md-4 -->
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon" href="#">
+                  <i class="bi bi-globe"></i>
+                  </a>
+                  <h4> Domain Name Registration</h4>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="fade-up">
+            <!-- end col-md-4 -->
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon" href="#">
+                  <i class="bi bi-search"></i>
+                  </a>
+                  <h4> Sampling</h4>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="fade-up">
+            <!-- end col-md-4 -->
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon" href="#">
+                  <i class="bi bi-box-seam"></i>
+                  </a>
+                  <h4>Packaging</h4>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <!-- End Services Section -->
+
+
+<!-- <div class="food-s-temp" hidden>
     <div class="owl-carousel food-slider">
 
         @foreach($products as $product)
@@ -219,11 +365,17 @@
 
 
     </div>
-</div>
+</div> -->
 
-<div class="our-brands">
-    <h1>OUR FOODS BRANDS</h1>
-    <div class="o-brands-parent owl-carousel">
+<div class="our-brands" data-aos="zoom-in">
+<div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline services-head text-center">
+              <h2>Our Food brands</h2>
+            </div>
+          </div>
+        </div>
+        <div class="o-brands-parent owl-carousel">
         <div class="brand-parent">
             <a href="{{url('brandProducts/5')}}">
                 <div class="b-bg-img" style="background-image:url('{{asset('user/img/brands/yara.png')}}')"></div>
@@ -262,12 +414,108 @@
         </div>
     </div>
 </div>
+<!-- Product Slider -->
+<section id="food_products" data-aos="fade-up">
+<div class="col-md-12 col-sm-12 col-xs-12">
+  <div class="container-fluid">
 
-<img style="width: 100%;" src="{{url('user/img/splash.png')}}" alt="">
+  <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline services-head text-center">
+              <h2>Food Products</h2>
+            </div>
+          </div>
+        </div>
 
-<div class="our-brands">
-    <h1>OTHER BRANDS</h1>
-    <div class="o-brands-parent owl-carousel">
+    <div class="row my-cards owl-carousel">
+      <div class="col-md-12 card-tal mb-5">
+        <div class="container-fluid card-tal-con">
+          <div class="row">
+          <div class="col-12"><h2>AL SHAM</h2></div>
+           <div class="col-12"><hr style="background-color: #001748;border-top: 2px solid rgb(0 23 72);"></div> 
+            <div class="col-md-12">
+              <img class="p-" style="width: 100%;" src="https://najibest.wenfee.com/storages/images/products/FFS005.jpg" alt="">
+            </div>
+            <div class="col-md-12 pt-md-5">
+             <div class="pt-2 pt-md-1">
+              <h4>Falafel (Uncooked )</h4>
+             </div>
+            </div>
+            <div class="col-2 col-md-6"></div><div class="col-10 col-md-6">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12 card-tal mb-5">
+        <div class="container-fluid card-tal-con">
+          <div class="row">
+          <div class="col-12"><h2>AL SHAM</h2></div>
+           <div class="col-12"><hr style="background-color: #001748;border-top: 2px solid rgb(0 23 72);"></div>             <div class="col-md-12">
+              <img class="p-" style="width: 100%;" src="https://najibest.wenfee.com/storages/images/products/FFS005.jpg" alt="">
+            </div>
+            <div class="col-md-12 pt-md-5">
+             <div class="pt-2 pt-md-1">
+              <h4>Falafel (Uncooked )</h4>
+             </div>
+            </div>
+            <div class="col-2 col-md-6"></div><div class="col-10 col-md-6">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12 card-tal mb-5">
+        <div class="container-fluid card-tal-con">
+          <div class="row">
+          <div class="col-12"><h2>AL SHAM</h2></div>
+           <div class="col-12"><hr style="background-color: #001748;border-top: 2px solid rgb(0 23 72);"></div>             <div class="col-md-12">
+              <img class="p-" style="width: 100%;" src="https://najibest.wenfee.com/storages/images/products/FFS005.jpg" alt="">
+            </div>
+            <div class="col-md-12 pt-md-5">
+             <div class="pt-2 pt-md-1">
+              <h4>Falafel (Uncooked )</h4>
+             </div>
+            </div>
+            <div class="col-2 col-md-6"></div><div class="col-10 col-md-6">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12 card-tal mb-5">
+        <div class="container-fluid card-tal-con">
+          <div class="row">
+          <div class="col-12"><h2>AL SHAM</h2></div>
+           <div class="col-12"><hr style="background-color: #001748;border-top: 2px solid rgb(0 23 72);"></div>             <div class="col-md-12">
+              <img class="p-" style="width: 100%;" src="https://najibest.wenfee.com/storages/images/products/FFS005.jpg" alt="">
+            </div>
+            <div class="col-md-12 pt-md-5">
+             <div class="pt-2 pt-md-1">
+              <h4>Falafel (Uncooked )</h4>
+             </div>
+            </div>
+            <div class="col-2 col-md-6"></div><div class="col-10 col-md-6">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+</section>
+<!-- Product Slider -->
+
+<div class="our-brands" data-aos="fade-up">
+<div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline services-head text-center">
+              <h2>Other Brands</h2>
+            </div>
+          </div>
+        </div>
+        <div class="o-brands-parent owl-carousel">
         <div class="brand-parent">
             <a href="{{url('brandProducts/65')}}">
                 <div class="b-bg-img" style="background-image:url('{{asset('user/img/brands/ChefRamzi.png')}}')"></div>
@@ -367,6 +615,24 @@
 @push('page_scripts')
 <script>
     $(document).ready(function () {
+        $(".my-cards").owlCarousel({
+            loop: true,
+            items: 2,
+            nav: true,
+            autoplay: false,
+            autoplayTimeout: 5000,
+            responsive: {
+
+                0: {
+                    items: 1
+                },
+                1000: {
+                    items: 4
+                }
+        }
+    })
+
+
         $(".top-slider").owlCarousel({
             loop: true,
             items: 1,

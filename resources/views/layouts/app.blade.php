@@ -16,11 +16,16 @@
     <link rel="stylesheet" href="{{URL::asset('user/libs/bs4/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{URL::asset('user/libs/owl/assets/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{URL::asset('user/libs/owl/assets/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('user/libs/aos/css/aos.css')}}">
     <link rel="stylesheet" href="{{URL::asset('user/libs/fa4/css/font-awesome.min.css')}}">
     <link rel="stylesheet" href="{{URL::asset('user/css/styles.css')}}">
     <link rel="stylesheet" href="{{URL::asset('user/css/navbar.css')}}">
     <link rel="stylesheet" href="{{URL::asset('user/libs/sider/css/sidebar.min.css')}}">
     <link rel="stylesheet" href="{{URL::asset('user/libs/nice_number/jquery.nice-number.min.css')}}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.6.1/font/bootstrap-icons.min.css" integrity="sha512-9a1QYep56cYgIPFq0JYfsh9xRYYmPBxKaD6/ZfVAtplQ6y9ZUSk7GxgC2dmwtxK9T2cGQOxCV6J2Ll51nrvP2w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
     <script src="{{URL::asset('user/libs/jquery/jquery.min.js')}}"></script>
     <script src="{{URL::asset('user/libs/nice_number/jquery.nice-number.min.js')}}"></script>
@@ -28,17 +33,20 @@
     <script src="{{URL::asset('user/libs/owl/owl.carousel.min.js')}}"></script>
     <script src="{{URL::asset('user/libs/jquery_cookie/jquery.cookie.js')}}"></script>
 
+
 </head>
 
 <body>
-
-    <nav class="m-nav m-nav-scrol">
+        <!-- Scroll To TOp Button -->
+        <button id="scroll_top"><i class="fas fa-arrow-up"></i></button>
+        <!-- Scroll To TOp Button -->
+    <!-- <nav class="m-nav m-nav-scrol">
         <button id="open-left"><span class="fa fa-bars"></span></button>
         <a href="/">
             <img src="{{URL::asset('user/img/logow.png')}}" alt="">
             <div class="brand-text">
                 <label>NAJIB EST.</label>
-                <!-- <p> Prosperity & Development Economical Group</p> -->
+                <p> Prosperity & Development Economical Group</p>
             </div>
 
         </a>
@@ -148,7 +156,59 @@
 
             </div>
         </div>
+    </div> -->
+
+
+    <!-- New Navbar -->
+    <!-- First Nab -->
+    <nav id="first_nav">
+    <div class="ship-to">
+        <p><span class="fa fa-map-marker"></span> Shipping To <span>{{$position->regionName}}</span></p>
     </div>
+            <div class="Registration">
+        <a href="#">Login</a>
+        <span>|</span>
+        <a href="#">Register</a>
+        <i class="fas fa-user User-Icon"></i>
+          </div>
+  </nav>
+    <!-- End Of First Nab -->
+
+      <div class="wrapper">
+    <nav id="main_nav">
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo">
+      <img id="logo_img" src="https://najibest.wenfee.com/user/img/logo.png" alt="">
+          <a href="#">NAJIB EST.</a>
+        </div>
+        <ul class="links">
+          <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+          <li>
+            <a href="#" class="desktop-link"><i class="fas fa-utensils"></i>Food Products</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features"><span><i class="fas fa-utensils"></i>Food Products</span><i class="fas fa-angle-down"></i></label>
+            <ul>
+              <li><a href="#">Mediterranean Foods</a></li>
+              <li><a href="#">Al Sham Bakery</a></li>
+              <li><a href="#">American Food</a></li>
+              <li><a href="#">Vegetables</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><i class="fas fa-book"></i>Cookbooks</a></li>
+          <li><a href="#"><i class="fas fa-clipboard-list"></i>Products List</a></li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="What are you looking for ?" required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div>
+    <!-- New Navbar -->
 
     <!-- Sidebar -->
     <div class="sidebar" id="sidebar">
@@ -312,7 +372,8 @@
     </div>
 
     @yield('content')
-    <footer>
+    <!-- Old Footer -->
+    <!-- <footer>
         <div class="row" style="width: 100%">
            
             <div class="col-sm-3">
@@ -344,10 +405,54 @@
             </div>
         </div>
 
-    </footer>
+    </footer> -->
+    <!-- End Of Old Footer -->
+    <!-- New Footer -->
+  <footer id="footer">
 
-    <div class="find-us">you can find our products in several stores or Call us to find out the nearest store and the
+<div class="footer-top">
+  <div class="container-fluid">
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6 footer-contact">
+        <h3>NAJIB <span>EST.</span></h3>
+        <p>
+        7184 TROY HILL DRIVE SUIT C.<br>
+          ELKRIDGE , MD 21075<br>
+          United States <br><br>
+          <strong>Phone:</strong>(410) 379-2267 , (301) 202-7905<br>
+          <strong>Email:</strong>Info@Najibest.Com<br>
+        </p>
+      </div>
+
+      <div class="col-lg-4 col-md-6 footer-links">
+        <h4>Links</h4>
+        <ul>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Contact Us</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 col-md-6 footer-links">
+        <h4>You Can Find Our Products</h4>
+        <ul>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">www.Shamra.Com  </a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">www.Wenfee.Com</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#"></a>Amazon</li>
+        </ul>
+      </div>
+      <div class="find-us">you can find our products in several stores or Call us to find out the nearest store and the
                         nearest distributor with our goods</div>
+    </div>
+  </div>
+</div>
+</footer>
+    <!--  End Of New Footer -->
+
+
+
     <script src="{{URL::asset('user/libs/sider/js/sidebar.js')}}"></script>
     <script>
         $(".s-menu a").click(function () {
@@ -475,8 +580,8 @@
         });
     </script>
     @stack('page_scripts')
-
-
+    <script src="{{URL::asset('user/libs/aos/js/aos.js')}}"></script>
+    <script src="{{URL::asset('user/js/scrolltotop.js')}}"></script>
 </body>
 <script type="text/javascript">
 
@@ -496,6 +601,13 @@
   (function(a){var d,c,b;a.acReadyEvents=a.acReadyEvents||[];if(a.acOnReady){d=a.acOnReady;a.acReadyEvents.push(d);a.acOnReady=undefined}if(a.postScriptLoad){a.postScriptLoad();return}a.jqReady=false;a.acReady=false;a.loadScript=function(e,i){var g,h=a.document,f=h.getElementsByTagName("head")[0];g=h.createElement("script");g.async=true;g.src=e;if(i){g.onload=i;g.onreadystatechange=function(){if(!this.readyState||this.readyState=="loaded"||this.readyState=="complete"){i();g.onload=g.onreadystatechange=null;f.removeChild(g)}}}f.appendChild(g)};a.postScriptLoad=function(){if(!a.jqReady||!a.acReady){setTimeout(a.postScriptLoad,60);return}while(a.acReadyEvents.length>0){var e=a.acReadyEvents.pop();e()}};c=a.jQuery;if(c){a.jqReady=true}else{a.loadScript("https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js",function(){a.jqReady=true})}b=a.AC;if(b){a.acReady=true}else{a.loadScript("https://wenfeeusa.americommerce.com/store/inc/clientapi/ac-client-api.min.js",function(){a.acReady=true})}a.postScriptLoad()}(window));
   // ==== END AC SYSTEM CODE ====
     
+  var x =document.querySelectorAll(".c-item");
+  var firstNavHeight = document.querySelector("#first_nav").offsetHeight
+  var mainNavHeight = document.querySelector("#main_nav").offsetHeight
+  for (let i = 0 ; i < x.length ; i++)
+  {
+  x[i].style.height = (window.innerHeight)+"px"
+  }
   </script>
 
 </html>
