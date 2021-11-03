@@ -795,7 +795,7 @@ ul.ks-cboxtags li input[type="checkbox"] {
     border-radius: 50%;
     right: -60px;
     bottom: 10px;
-    z-index: 2;
+    z-index: 9;
     align-content: center;
     justify-content: center;
     align-items: center;

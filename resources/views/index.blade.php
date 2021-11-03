@@ -195,152 +195,131 @@
         </div>
     </div>
 </div> -->
-    <!-- New sevices Section -->
-    <div id="services" class="services-area area-padding">
-      <div class="container-fluid">
-        <div class="row">
+
+    <!-- ------------------------------------------------------------------------ -->
+    <section id="services-section">
+    <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12" data-aos="fade-up">
             <div class="section-headline services-head text-center">
               <h2>Our Services</h2>
             </div>
           </div>
         </div>
-        <div class="row text-center">
-          <!-- Start Left services -->
-          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="fade-up">
-            <div class="about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" href="#">
-                    <i class="bi bi-briefcase"></i>
-                  </a>
-                  <h4> IMPORT - EXPORT- AGENCIES</h4>
-                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="fade-up">
-            <div class="about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" href="#">
-                  <i class="bi bi-basket"></i>
-                  </a>
-                  <h4> Food Distributed</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="fade-up">
-            <!-- end col-md-4 -->
-            <div class=" about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" href="#">
-                  <i class="bi bi-bar-chart"></i>
-                  </a>
-                  <h4>Web Site Management</h4>
-                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="fade-up">
-            <!-- end col-md-4 -->
-            <div class=" about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" href="#">
-                  <i class="fas fa-shipping-fast"></i>
-                  </a>
-                  <h4> Shipping</h4>
-                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
-          </div>
-          <!-- End Left services -->
-          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="fade-up">
-            <!-- end col-md-4 -->
-            <div class=" about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" href="#">
-                  <i class="bi bi-code-slash"></i>
-                  </a>
-                  <h4> Web Design & Development</h4>
-                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
-          </div>
-          <!-- End Left services -->
-          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="fade-up">
-            <!-- end col-md-4 -->
-            <div class=" about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" href="#">
-                  <i class="bi bi-badge-ad"></i>
-                  </a>
-                  <h4> Advertising-Propaganda</h4>
-                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
-          </div>
-
-          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="fade-up">
-            <!-- end col-md-4 -->
-            <div class=" about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" href="#">
-                  <i class="bi bi-globe"></i>
-                  </a>
-                  <h4> Domain Name Registration</h4>
-                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
-          </div>
-
-          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="fade-up">
-            <!-- end col-md-4 -->
-            <div class=" about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" href="#">
-                  <i class="bi bi-search"></i>
-                  </a>
-                  <h4> Sampling</h4>
-                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
-          </div>
-
-          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="fade-up">
-            <!-- end col-md-4 -->
-            <div class=" about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" href="#">
-                  <i class="bi bi-box-seam"></i>
-                  </a>
-                  <h4>Packaging</h4>
-                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
-          </div>
-
-
+    <div id="services">
+    <div class="services-container">
+      <div  class="serviceBox" data-aos="fade-up">
+        <div class="icon">
+          <i class="fas fa-briefcase"></i>
+          <h2> IMPORT | EXPORT | AGENCIES</h2>
+        </div>
+        <div class="content">
+          <h2> IMPORT | EXPORT | AGENCIES</h2>
+          <p>
+          Food Import And Export Is Our Major Specialization. Transferring The Foods Between Different Countries And Offering The Top High Quality. Najib Est Provides Import And Export Services To All Customers In The Fastest Time And The Best Cost. Customers Satisfaction Is The Main Target Behind The Excellence In Our Service. A Specialized Department In Import And Export Is Available.  
+          </p>
+        </div>
+      </div>
+      <div  class="serviceBox" data-aos="fade-up">
+        <div class="icon">
+          <i class="fas fa-code"></i>
+          <h2> Web Design & Development</h2>
+        </div>
+        <div class="content">
+          <h2> Web Design & Development</h2>
+          <p>
+          Najib Establishment Is Concerned In All The Important Details Of Creating Your Own Website. Offering The Best Available And Used Techniques In Order To Make The Website More Useful And Effective For Your Customer. This Service Is Available Even After The Finish Of Website Creating.  
+          </p>
+        </div>
+      </div>
+      <div  class="serviceBox" data-aos="fade-up">
+        <div class="icon">
+        <i class="fas fa-shopping-basket"></i>
+        <h2> Food Distributed</h2>
+        </div>
+        <div class="content">
+          <h2> Food Distributed</h2>
+          <p>
+          Najib Est Is One Of The Largest Companies World Wild. Providing The Customers In And Out America With The Best Quality Of European And Arabic Food Products. Offering The Highest Quality Standards In Order To Ensure The Safety Of The Food Products. The Best Services Are Always Available.  
+          </p>
+        </div>
+      </div>
+      <div  class="serviceBox" data-aos="fade-up">
+        <div class="icon">
+          <i class="fas fa-chart-bar"></i>
+          <h2>Web Site Management</h2>
+        </div>
+        <div class="content">
+          <h2>Web Site Management</h2>
+          <p>
+          Najib Est Always Provides The Customers With The Highest Quality Products, The Developed Techniques, And The Most Advanced Pages Displaying And Designing. The Process Of Buying And Selling Through Our Websites, Is So Easy And Facilitated. Paying Attention To The Smallest Things And Details, Dates Respecting, Credibility At Work And The Constant Seeking To Serve The Customers Are Our Main Targets. Our Websites Are The Most Functional And Credible Sites You Are In The Convenient Place. Najib Est Has A Professional Academic Team, Works According To The Highest Standards Of Advertising Technology And Marketing.  
+          </p>
+        </div>
+      </div>
+      <div  class="serviceBox" data-aos="fade-up">
+        <div class="icon">
+        <i class="fas fa-shipping-fast"></i>
+        <h2> Shipping </h2>
+        </div>
+        <div class="content">
+          <h2> Shipping </h2>
+          <p>
+          Providing On-Time Express Shipping Services For Customers In Any State Or Country In And Outside America. Get A Safety Shipping Process By Land Or Sea. To Get More Information Send Us An Email Or Call Us On The Phone Numbers Of Our Company.
+          </p>
+        </div>
+      </div>
+      <div  class="serviceBox" data-aos="fade-up">
+        <div class="icon">
+        <i class="fas fa-ad"></i>
+        <h2> Advertising-Propaganda</h2>
+        </div>
+        <div class="content">
+          <h2> Advertising-Propaganda</h2>
+          <p>
+          A High Level Of Marketing Services Are Available. Promote Your Business And Your Brands, And Get The Most Attractive Advertisement With Us. For More Information, You Can Visit Our Offices Or Through Pressing On "Contact Us" Link.
+          </p>
+        </div>
+      </div>
+      <div  class="serviceBox" data-aos="fade-up">
+        <div class="icon">
+        <i class="bi bi-globe"></i>
+        <h2> Domain Name Registration </h2>
+        </div>
+        <div class="content">
+          <h2> Domain Name Registration </h2>
+          <p>
+          Reserve Your Domain Name With Us, And Register The Brand Under Your Own Name.  
+          </p>
+        </div>
+      </div>
+      <div  class="serviceBox" data-aos="fade-up">
+        <div class="icon">
+        <i class="fas fa-search"></i>
+        <h2> Sampling </h2>
+        </div>
+        <div class="content">
+          <h2> Sampling </h2>
+          <p>
+          High Quality Sampling Is Applied To Represent Your Product Well.  
+          </p>
+        </div>
+      </div>
+      <div  class="serviceBox" data-aos="fade-up">
+        <div class="icon">
+        <i class="bi bi-box-seam"></i>
+        <h2>Packaging</h2>
+        </div>
+        <div class="content">
+          <h2>Packaging</h2>
+          <p>
+          Production Lines To Food Packaging Within The Required Sanitary Conditions And Standards Are Available. Ensuring The Cleanliness And Safety Of Fresh Food. There Is Professional Packaging For Variant Companies Under Their Names Or Our Name.  
+          </p>
         </div>
       </div>
     </div>
-    <!-- End Services Section -->
+  </div>
+  <p id="services_p">For More Information, Please Contact Us In Order To Let You Meet The Responsible Person.</p>
+</section> 
+   <!-- ------------------------------------------------------------------------ -->
 
 
 <!-- <div class="food-s-temp" hidden>

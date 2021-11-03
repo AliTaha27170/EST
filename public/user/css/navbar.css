@@ -236,6 +236,7 @@ nav.m-nav ul li:hover{
     background-color: #323c4e;
     width: 100%;
     height: 40px;
+    z-index: 3;
 }
 #first_nav .ship-to , #first_nav .Registration{
   color: #fff
