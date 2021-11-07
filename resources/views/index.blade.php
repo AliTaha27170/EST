@@ -26,7 +26,31 @@
      data-aos-offset="0">
     <div class="c-item c-main">
         <!-- <img class="bg-img" src=""> -->
-        <div class="bg-img" style="background-image:url('{{URL::asset('user/img/slider2.png')}}')"></div>
+        <div class="bg-img" style="background-image:url('{{URL::asset('user/img/ComputerSlide.jpg')}}')"></div>
+        <div class="bg-filter"></div>
+        <div class="c-logo-parent">
+            <img class="c-logo" src="{{URL::asset('user/img/logo.png')}}">
+            <div>
+                <h1>NAJIB EST, INC.</h1>
+                <p> Prosperity & Development Economical Group</p>
+            </div>
+        </div>
+    </div>
+    <div class="c-item c-main">
+        <!-- <img class="bg-img" src=""> -->
+        <div class="bg-img" style="background-image:url('{{URL::asset('user/img/marketslide.jpg')}}')"></div>
+        <div class="bg-filter"></div>
+        <div class="c-logo-parent">
+            <img class="c-logo" src="{{URL::asset('user/img/logo.png')}}">
+            <div>
+                <h1>NAJIB EST, INC.</h1>
+                <p> Prosperity & Development Economical Group</p>
+            </div>
+        </div>
+    </div>
+    <div class="c-item c-main">
+        <!-- <img class="bg-img" src=""> -->
+        <div class="bg-img" style="background-image:url('{{URL::asset('user/img/marketslide2.jpg')}}')"></div>
         <div class="bg-filter"></div>
         <div class="c-logo-parent">
             <img class="c-logo" src="{{URL::asset('user/img/logo.png')}}">
@@ -47,7 +71,7 @@
 
     <div class="c-item c-main">
         <!-- <img class="bg-img" src="{{URL::asset('user/img/bg002.jpg')}}"> -->
-        <div class="bg-img" style="background-image:url('{{URL::asset('user/img/truck2.jpg')}}')"></div>
+        <div class="bg-img" style="background-image:url('{{URL::asset('user/img/slider2.png')}}')"></div>
         <div class="bg-filter"></div>
         <div class="c-logo-parent">
             <img class="c-logo" src="{{URL::asset('user/img/logo.png')}}">

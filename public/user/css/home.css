@@ -661,7 +661,7 @@ transition-delay: .5s;      /* fadeout won't happen for a second */
 }
 .card-tal .card-tal-con{
     background-color: #fff;
-    height: 100%;
+    height: 500px;
     color: #001748e3;
     border-radius: 8px;
     padding: 30px;;
