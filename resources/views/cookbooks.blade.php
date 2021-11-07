@@ -110,6 +110,11 @@
         </div>
     </div>
 </div>
+<style>
+    .wrapper{
+        background : #001748;
+    }
+</style>
 @push('page_scripts')
 <script>
     $(document).ready(function () {

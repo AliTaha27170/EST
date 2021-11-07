@@ -1,7 +1,7 @@
 .top-banner{
     background-size: cover;
     background-position: center;
-    padding: 225px 0;
+    padding: 300px 0;
     position: relative;
     box-shadow: #000 0 0 10px;
 }
@@ -11,9 +11,9 @@
     color: #222;
     font-size: 40px;
     width: 40%;
-    z-index: 6;
     position: absolute;
     left: 55px;
+    font-family: 't1';
 }
 
 .c-item{
@@ -33,11 +33,10 @@
 .top-banner .bg-filter,
 .c-item .bg-filter{
     position: absolute;
-    top: 0;
+    top: 100px;
     right: 0;
     width: 100% !important;
     height: 100% !important;
-    z-index: 5;
     background-size: cover;
     background-position: left;
     /* background: #fff; */
