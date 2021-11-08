@@ -428,19 +428,19 @@
       <div class="col-lg-4 col-md-6 footer-links">
         <h4>Links</h4>
         <ul>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">Contact Us</a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">Terms & Conditions</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="../../../../">Home</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="{{url('about')}}">About us</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="{{url('contact/create')}}">Contact Us</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#" data-toggle="modal" data-target="#terms-modal">Terms & Conditions</a></li>
         </ul>
       </div>
 
       <div class="col-lg-4 col-md-6 footer-links">
         <h4>You Can Find Our Products</h4>
         <ul>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">www.Shamra.Com  </a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">www.Wenfee.Com</a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="#"></a>Amazon</li>
+          <li><i class="bi bi-chevron-right"></i> <a href="http://www.Shamra.Com">www.Shamra.Com  </a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="http://www.Wenfee.Com">www.Wenfee.Com</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="https://www.amazon.com/s?k=najib+est&qid=1554403445&ref=sr_pg_1">Amazon</a></li>
         </ul>
       </div>
       <div class="find-us">you can find our products in several stores or Call us to find out the nearest store and the
