@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="{{URL::asset('user/libs/owl/assets/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{URL::asset('user/libs/owl/assets/owl.theme.default.min.css')}}">
     <link rel="stylesheet" href="{{URL::asset('user/libs/aos/css/aos.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('user/css/swiper-bundle.min.css')}}">
     <link rel="stylesheet" href="{{URL::asset('user/libs/fa4/css/font-awesome.min.css')}}">
     <link rel="stylesheet" href="{{URL::asset('user/css/styles.css')}}">
     <link rel="stylesheet" href="{{URL::asset('user/css/navbar.css')}}">
@@ -454,6 +455,7 @@
 
 
     <script src="{{URL::asset('user/libs/sider/js/sidebar.js')}}"></script>
+    <script src="{{ asset('js/swiper-bundle.min.js') }}"></script>
     <script>
         $(".s-menu a").click(function () {
             $(this).next().filter("ul").slideToggle(500);

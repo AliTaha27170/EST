@@ -123,7 +123,6 @@
   @media (max-width: 820px) {
     .Contact-container{
       margin: 40px auto;
-      height: 100%;
     }
     .Contact-container .content{
       flex-direction: column-reverse;

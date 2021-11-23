@@ -221,7 +221,7 @@
 </div> -->
 
     <!-- ------------------------------------------------------------------------ -->
-    <section id="services-section">
+    <!-- <section id="services-section">
     <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12" data-aos="fade-up">
             <div class="section-headline services-head text-center">
@@ -342,7 +342,156 @@
     </div>
   </div>
   <p id="services_p">For More Information, Please Contact Us In Order To Let You Meet The Responsible Person.</p>
-</section> 
+</section>  -->
+    <section id="our_services">
+
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline services-head text-center">
+              <h2>Our services</h2>
+            </div>
+          </div>
+        </div>
+    
+    <div class="container-fluid info-body learn-more-parent">
+        <div class="row">
+            <div class="col-sm-3">
+                <ul class="learn-more-list">
+                    <li>
+                        <a class="first-lm lm-active" data-t="#lm1">
+                        <i class="fas fa-briefcase learn-more-i"></i>
+                            <p>IMPORT | EXPORT | AGENCIES</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a data-t="#lm2">
+                        <i class="fas fa-code learn-more-i"></i>
+                            <p>Web Design & Development</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a data-t="#lm3">
+                        <i class="fas fa-shopping-basket learn-more-i"></i>
+                            <p>Food Distributed</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a data-t="#lm4">
+                        <i class="fas fa-chart-bar learn-more-i"></i>
+                            <p>Web Site Management</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a data-t="#lm5">
+                        <i class="bi bi-search learn-more-i"></i>
+                            <p>Sampling</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a data-t="#lm6">
+                        <i class="fas fa-shipping-fast learn-more-i"></i>
+                            <p>Shipping</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a data-t="#lm7">
+                        <i class="fas fa-ad learn-more-i"></i>
+                            <p>Advertising-Propaganda</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a data-t="#lm8">
+                        <i class="bi bi-globe learn-more-i"></i>
+                            <p>Domain Name Registration</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a data-t="#lm9">
+                        <i class="bi bi-box-seam learn-more-i"></i>
+                            <p>Packaging</p>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-sm-7 description-box">
+                <div class="lm-text lm-text-active" id="lm1" style="display: block;">
+                    <h3>IMPORT | EXPORT | AGENCIES</h3>
+                    <p>
+                    Food Import And Export Is Our Major Specialization. Transferring The Foods Between Different Countries And Offering The Top High Quality. Najib Est Provides Import And Export Services To All Customers In The Fastest Time And The Best Cost. Customers Satisfaction Is The Main Target Behind The Excellence In Our Service. A Specialized Department In Import And Export Is Available.
+                    </p>
+                </div>
+
+                <div class="lm-text" id="lm2">
+                    <h3>Web Design & Development</h3>
+                    <p>
+                    Najib Establishment Is Concerned In All The Important Details Of Creating Your Own Website. Offering The Best Available And Used Techniques In Order To Make The Website More Useful And Effective For Your Customer. This Service Is Available Even After The Finish Of Website Creating.
+                    </p>
+                </div>
+
+                <div class="lm-text" id="lm3">
+                    <h3>Food Distributed</h3>
+                    <p>
+                    Najib Est Is One Of The Largest Companies World Wild. Providing The Customers In And Out America With The Best Quality Of European And Arabic Food Products. Offering The Highest Quality Standards In Order To Ensure The Safety Of The Food Products. The Best Services Are Always Available.
+                    </p>
+                </div>
+
+                <div class="lm-text" id="lm4">
+                    <h3>Web Site Management</h3>
+                    <p>
+                    Najib Est Always Provides The Customers With The Highest Quality Products, The Developed Techniques, And The Most Advanced Pages Displaying And Designing. The Process Of Buying And Selling Through Our Websites, Is So Easy And Facilitated. Paying Attention To The Smallest Things And Details, Dates Respecting, Credibility At Work And The Constant Seeking To Serve The Customers Are Our Main Targets. Our Websites Are The Most Functional And Credible Sites You Are In The Convenient Place. Najib Est Has A Professional Academic Team, Works According To The Highest Standards Of Advertising Technology And Marketing.
+                    </p>
+                </div>
+
+                <div class="lm-text" id="lm5">
+                    <h3>Sampling</h3>
+                    <p>
+                    High Quality Sampling Is Applied To Represent Your Product Well.
+                    </p>
+                </div>
+
+                <div class="lm-text" id="lm6">
+                    <h3>Shipping</h3>
+                    <p>
+                    Providing On-Time Express Shipping Services For Customers In Any State Or Country In And Outside America. Get A Safety Shipping Process By Land Or Sea. To Get More Information Send Us An Email Or Call Us On The Phone Numbers Of Our Company.
+                    </p>
+                </div>
+
+                <div class="lm-text" id="lm7">
+                    <h3>Advertising-Propaganda</h3>
+                    <p>
+                    A High Level Of Marketing Services Are Available. Promote Your Business And Your Brands, And Get The Most Attractive Advertisement With Us. For More Information, You Can Visit Our Offices Or Through Pressing On "Contact Us" Link.
+                    </p>
+                </div>
+
+                <div class="lm-text" id="lm8">
+                    <h3>Domain Name Registration</h3>
+                    <p>
+                   Reserve Your Domain Name With Us, And Register The Brand Under Your Own Name.
+                    </p>
+                </div>
+
+                <div class="lm-text" id="lm9">
+                    <h3>Packaging</h3>
+                    <p>
+                    Production Lines To Food Packaging Within The Required Sanitary Conditions And Standards Are Available. Ensuring The Cleanliness And Safety Of Fresh Food. There Is Professional Packaging For Variant Companies Under Their Names Or Our Name.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+</section>
    <!-- ------------------------------------------------------------------------ -->
 
 
@@ -699,6 +848,23 @@
             }
         })
     }
+    
+    $(".learn-more-list a").click(function () {
+        $(".lm-active").removeClass("lm-active");
+        $(this).addClass("lm-active");
+
+        var tt = $(this).attr("data-t");
+
+        $(".lm-text-active").fadeOut(200, function(){
+            $(".lm-text-active").removeClass("lm-text-active");
+            $(tt).fadeIn(200);
+            $(tt).addClass("lm-text-active");
+        });
+    });
+
+$(".first-lm").click();
+
+
 
 </script>
 @endpush
