@@ -183,23 +183,29 @@
       <div class="content">
       <div class="logo">
       <img id="logo_img" src="https://najibest.wenfee.com/user/img/logo.png" alt="">
-          <a href="#">NAJIB EST.</a>
+          <a href="{{url('/')}}">NAJIB EST.</a>
         </div>
+        </div>
+        <div class="content">
         <ul class="links">
-          <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+          <li><a href="{{url('/')}}"><i class="fas fa-home"></i>Home</a></li>
           <li>
             <a href="#" class="desktop-link"><i class="fas fa-utensils"></i>Food Products</a>
             <input type="checkbox" id="show-features">
             <label for="show-features"><span><i class="fas fa-utensils"></i>Food Products</span><i class="fas fa-angle-down"></i></label>
             <ul>
-              <li><a href="#">Mediterranean Foods</a></li>
-              <li><a href="#">Al Sham Bakery</a></li>
-              <li><a href="#">American Food</a></li>
-              <li><a href="#">Vegetables</a></li>
+            @foreach($big_categories as $big_cat)
+                        <li>
+                            <a @if($big_cat->cat_num>0) href="{{url('products/'.$big_cat->id)}}" @else
+                                data-toggle="modal" data-target="#soon-modal" href="#" @endif ><span
+                                    class="fa fa-cutlery"></span>{{$big_cat->name}}
+                            </a>
+                        </li>
+             @endforeach
             </ul>
           </li>
-          <li><a href="#"><i class="fas fa-book"></i>Cookbooks</a></li>
-          <li><a href="#"><i class="fas fa-clipboard-list"></i>Products List</a></li>
+          <li><a href="{{url('cookbooks')}}"><i class="fas fa-book"></i>Cookbooks</a></li>
+          <li><a href="{{url('productList')}}"><i class="fas fa-clipboard-list"></i>Products List</a></li>
         </ul>
       </div>
       <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>

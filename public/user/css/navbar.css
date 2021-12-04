@@ -233,7 +233,7 @@ nav.m-nav ul li:hover{
     justify-content: space-between;
     padding: 10px 20px;
     z-index: 2;
-    background-color: #323c4e;
+    background-color: #001748;
     width: 100%;
     height: 40px;
     z-index: 3;
@@ -257,7 +257,7 @@ nav.m-nav ul li:hover{
   transition: all 0.3s ease 0s;
 }
 .header-fix {
-  background: #001748;
+  background: #fff !important;
   z-index: 9;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
 }
@@ -275,7 +275,8 @@ nav .content{
   align-items: center;
 }
 nav .content .links{
-  margin: 0 0 0 80px;
+  margin: 0;
+  padding: 0;
   display: flex;
 }
 .content .logo
@@ -290,6 +291,9 @@ nav .content .links{
   margin: 0;
   cursor: pointer;
   line-height: 41px;
+}
+.header-fix .content .logo a{
+  color: #001748 !important;
 }
 #logo_img
 {
@@ -313,6 +317,9 @@ nav .content .links{
   padding: 26px 17px;
   transition: all 0.3s ease;
 }
+.header-fix .content .links li a{
+  color: #001748 !important;
+}
 .content .links li a:after {    
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
@@ -324,6 +331,9 @@ nav .content .links{
   background: #fff;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
+}
+.header-fix .content .links li a:after{
+  background-color: #001748;
 }
 .content .links li a:hover:after { 
   width: 100%; 
@@ -343,6 +353,10 @@ nav .content .links{
   width: 70px;
   text-align: center;
   margin: 0;
+}
+.header-fix .search-icon,
+.header-fix .menu-icon{
+  color: #001748;
 }
 .wrapper .menu-icon{
   display: none;
@@ -370,12 +384,12 @@ nav .content .links{
   border: none;
   outline: none;
   font-size: 17px;
-  color: #fff;
-  background: #001748;
+  color: #001748;
+  background: #ffffff;
   padding: 0 100px 0 15px;
 }
 .search-box input::placeholder{
-  color: #f2f2f2;
+  color: #001748;
 }
 .search-box .go-icon{
   position: absolute;
@@ -384,10 +398,10 @@ nav .content .links{
   transform: translateY(-50%);
   line-height: 60px;
   width: 70px;
-  background: #001748;
+  background: #fff;
   border: none;
   outline: none;
-  color: #fff;
+  color: #001748;
   font-size: 20px;
   cursor: pointer;
 }
@@ -398,13 +412,17 @@ nav .content .links{
 /* Dropdown Menu code start */
 .content .links ul{
   position: absolute;
-  background: #001748; /*#171c24*/
+  background: #0b2150e0; /*#171c24*/
   padding: 0;
   top: 80px;
   z-index: -1;
   opacity: 0;
   visibility: hidden;
 }
+.header-fix .content .links ul{
+  background-color: #fff;
+}
+
 .content .links li:hover > ul{
   
   top: 70px;
@@ -442,7 +460,7 @@ nav .content .links{
     padding: 0 20px;
   }
   nav .content .links{
-    margin-left: 30px;
+    margin-left: 0;
   }
   .content .links li a{
     padding: 26px 13px;

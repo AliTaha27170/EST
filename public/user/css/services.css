@@ -1,0 +1,108 @@
+.section-headline h2 {
+    text-align: center;
+    padding: 140px 0 20px 0;
+    font-family: 't1';
+    color: #001748;
+    font-size: 28px;
+  }
+  .section-headline h2::after {
+    border: 2px solid #001748;
+    border-radius: 8px;
+    background: #001748;
+    bottom: 15px;
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 15%;
+  }
+  .service-details {
+    padding-bottom: 10px;
+  }
+  .service-details .card {
+    border: 0;
+    padding: 0 30px;
+    margin-bottom: 60px;
+    position: relative;
+  }
+  .service-details .card-img {
+    width: calc(100% + 60px);
+    margin-left: -30px;
+    overflow: hidden;
+    z-index: 9;
+    border-radius: 0;
+  }
+  .service-details .card-img img {
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+  }
+  .service-details .card-body {
+    z-index: 10;
+    background: #fff;
+    border-top: 4px solid #fff;
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    margin-top: -60px;
+    transition: 0.3s;
+  }
+  .service-details .card-title {
+    color : #ad001b ;
+    font-family : 'f1';
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .service-details .card-title a {
+    color: #1e4356;
+    transition: 0.3s;
+  }
+  .service-details .card-text {
+    color: #5e5e5e;
+  }
+  .service-details .read-more a {
+    color: #777777;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    transition: 0.3s;
+  }
+  .service-details .read-more a:hover {
+    color: #68A4C4;
+  }
+  .service-details .card:hover img {
+    transform: scale(1.1);
+  }
+  .service-details .card:hover .card-body {
+    border-color: #ad001b;
+  }
+  .service-details .card:hover .card-body .card-title a {
+    color: #68A4C4;
+  }
+  
+  .last-card .container {
+    box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
+    background: #fff;
+  }
+  .last-card .information-box + .information-box {
+    margin-top: 50px;
+  }
+  .last-card .information-box .title {
+      font-weight: 700;
+      margin-bottom: 10px;
+      font-size: 18px;
+      color: #ad001b;
+      text-align: left;
+      text-transform: uppercase;
+  }
+  .last-card .information-box .description {
+    line-height: 24px;
+    font-size: 14px;
+  }
+  .last-card  {
+    position: relative;
+  }
+  .last-card img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }

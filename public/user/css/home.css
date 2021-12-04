@@ -60,14 +60,20 @@ body{
 .c-item.c-main .c-logo-parent{
     z-index: 6;
     position: absolute;
-    top: 35%;
+    top: 40%;
     right: 0;
     left: 0;
     margin: 0 auto;
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
     display: flex;
     height: 200px;
+    margin: 0 0 0 50px;
+}
+@media (max-width : 550px ){
+    .c-item.c-main .c-logo-parent{
+        margin: 0;
+    }
 }
 
 .c-item.c-main .c-logo-parent p{
@@ -78,16 +84,16 @@ body{
 
 .c-item.c-main .c-logo-parent h1{
     color: #001748;
-    margin-top: 33px;
-    font-size: 55px;
+    margin-top: 5px;
+    font-size: 32px;
     text-shadow: #fff 0 0 10px;
     font-family: 't1'
 }
 
 .c-item.c-main .c-logo-parent .c-logo{
-    height: 150px;
-    width: 163px;
+    width: 100px;
     filter: drop-shadow(#fff 0 0 10px);
+    height: 90px;
 }
 
 .c-item .c-content {
